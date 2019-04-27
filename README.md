@@ -11,7 +11,7 @@ python gaz_extraction.py  --target_language LAN_CODE --output_directory output_d
 ```
 LAN_CODE is ISO 639-1 language code
 
-output format
+output format (separted by tab)
 ```
 圣胡利娅-德洛里亚       Sant Julià de Lòria
 圣胡利娅－德洛里亚      Sant Julià de Lòria
