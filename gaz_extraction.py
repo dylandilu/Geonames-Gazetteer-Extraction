@@ -42,9 +42,5 @@ if __name__=='__main__':
     parser.add_argument('--path_allCountries', default='data/allCountries.txt', help='path of allCountries.txt')
     parser.add_argument('--path_alternateNames', default='data/alternateNames.txt', help='path of alternateNames.txt')
     args = parser.parse_args()
-    #falna='/data/m1/lud2/LORELEI/resource/geonames/alternateNames.txt'
-    #fGeonames='/data/m1/lud2/LORELEI/resource/geonames/allCountries.txt'
-    #dir_out='../../geonames'
-    #    lang='am'
 
     il_geonames(args.target_language,args.path_alternateNames,args.output_directory,args.path_allCountries)
