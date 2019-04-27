@@ -7,7 +7,7 @@ Th script is written in Pythton 3.6+
 [Downlad](https://www.dropbox.com/s/jik9lvx13wp8zhd/allCountries.txt?dl=0) allCountries.txt
 
 ```
-python gaz_extraction.py  --target_language LAN_CODE --output_directory output_directory OUTPUT_DIR --path_allCountries FILE_PATH_1 --path_alternateNames FILE_PATH_2
+python gaz_extraction.py  --target_language LAN_CODE --output_directory OUTPUT_DIR --path_allCountries FILE_PATH_1 --path_alternateNames FILE_PATH_2
 ```
 LAN_CODE is ISO 639-1 language code
 

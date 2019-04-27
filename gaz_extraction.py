@@ -2,16 +2,6 @@
 import os
 import sys
 import argparse
-#countryList=[]
-#fCountry=open('/data/m1/lud2/LORELEI/resource/geonames/countryInfo.txt')
-#for oneline in fCountry:
-#    if oneline[0:1]=='#':
-#        continue
-#    if oneline.split('\t')[8]=='AF':
-#        countryList.append(oneline.split('\t')[0])
-#fCountry.close()
-#print len(countryList)
-
 
 def il_geonames(lang,falna,dir_out,fGeonames):
     cadList={}
